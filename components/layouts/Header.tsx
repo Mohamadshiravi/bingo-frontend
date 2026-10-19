@@ -4,6 +4,7 @@ import { MediaImage as Image } from "@/components/ui/Media";
 import PhoneIcon from "@/assets/icons/phone.svg";
 import UserIcon from "@/assets/icons/user.svg";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useTranslate } from "@tolgee/react";
 import { useEffect, useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
@@ -13,6 +14,9 @@ import { createPortal } from "react-dom";
 export default function Header() {
   const [isTop, setIsTop] = useState(true);
   const { t } = useTranslate();
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const isCareers = pathname === "/careers" || pathname.startsWith("/careers/");
 
   useEffect(() => {
     function isTopHandler() {
@@ -44,8 +48,14 @@ export default function Header() {
           } md:px-8 px-4 section-container flex items-center justify-between`}
         >
           <HeaderMobileMenu />
-          <Link href={"/"} className="flex items-center gap-1">
-            <span className="text-beenbo text-lg font-bold">
+          <Link
+            href={"/"}
+            aria-current={isHome ? "page" : undefined}
+            className="flex items-center gap-1"
+          >
+            <span
+              className={`${isHome ? "text-beenbo" : "text-schemes-outline"} text-lg font-bold hover:text-beenbo transition-all`}
+            >
               {t("layouts.header.brandName")}
             </span>
           </Link>
@@ -54,7 +64,13 @@ export default function Header() {
               {t("layouts.header.services")}
             </li>
             <li className="hover:text-beenbo transition-all cursor-pointer">
-              <Link href={"/careers"}>{t("layouts.header.career")}</Link>
+              <Link
+                href={"/careers"}
+                aria-current={isCareers ? "page" : undefined}
+                className={isCareers ? "text-beenbo" : undefined}
+              >
+                {t("layouts.header.career")}
+              </Link>
             </li>
             <li className="hover:text-beenbo transition-all cursor-pointer">
               {t("layouts.header.support")}
@@ -85,6 +101,9 @@ export default function Header() {
 function HeaderMobileMenu() {
   const [isMount, setIsMount] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const isCareers = pathname === "/careers" || pathname.startsWith("/careers/");
 
   const { t } = useTranslate();
 
@@ -136,6 +155,7 @@ function HeaderMobileMenu() {
               </button>
               <Link
                 href={"/"}
+                aria-current={isHome ? "page" : undefined}
                 className="flex items-center justify-center mt-8 gap-1"
               >
                 <Image
@@ -145,7 +165,9 @@ function HeaderMobileMenu() {
                   width={800}
                   height={800}
                 />
-                <span className="text-beenbo text-xl font-bold">
+                <span
+                  className={`${isHome ? "text-beenbo" : "text-schemes-outline"} text-xl font-bold hover:text-beenbo transition-all`}
+                >
                   {t("layouts.header.brandName")}
                 </span>
               </Link>
@@ -157,7 +179,13 @@ function HeaderMobileMenu() {
                   {t("layouts.header.services")}
                 </li>
                 <li className="hover:text-beenbo transition-all cursor-pointer">
-                  <Link href={"/careers"}>{t("layouts.header.career")}</Link>
+                  <Link
+                    href={"/careers"}
+                    aria-current={isCareers ? "page" : undefined}
+                    className={isCareers ? "text-beenbo" : undefined}
+                  >
+                    {t("layouts.header.career")}
+                  </Link>
                 </li>
                 <li className="hover:text-beenbo transition-all cursor-pointer">
                   {t("layouts.header.support")}
