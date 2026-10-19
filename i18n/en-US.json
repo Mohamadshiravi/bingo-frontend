@@ -1,0 +1,341 @@
+{
+  "careerLanding": {
+    "beenbo": {
+      "description": {
+        "part1": "Bingo is a platform for performing human tasks, unlike robotic systems,",
+        "part2": "here all tasks are done manually",
+        "part3": "by real people."
+      },
+      "example": {
+        "dots": "...",
+        "example": "Example",
+        "for": "For"
+      },
+      "example1": {
+        "part1": "You have an Instagram profile",
+        "part2": "and you can earn money",
+        "part3": "by consistently following others and completing activities",
+        "part4": "to generate income."
+      },
+      "example2": {
+        "part1": "You watch YouTube daily",
+        "part2": "and now, with subscribe",
+        "part3": "and by watching videos and doing tasks",
+        "part4": "you can earn money."
+      },
+      "mainTitle": "Bingo, the people's advertising platform",
+      "whatIsBeenboTitle": "What is Bingo and what does it do?"
+    },
+    "hero": {
+      "descriptionPart1": "Work is not always hard, you can earn money at any time of the day by installing the Bingo app and performing simple tasks.",
+      "descriptionPart2": "As you complete tasks, your points increase and your account is upgraded. If you wish, you can work every day and have a steady income.",
+      "descriptionPart3": "With Bingo, you can earn money anytime and as much as you want.",
+      "downloadApk": "Download APK",
+      "title": "Earn money anytime and anywhere",
+      "watchIntro": "Watch Intro"
+    },
+    "info": {
+      "instantPayout": "Instant payout to wallet after completing the task",
+      "title": "Join us at Binbo",
+      "unlimitedIncome": "Unlimited earning potential",
+      "workAnytime": "Ability to work anytime"
+    }
+  },
+  "careersLanding": {
+    "beenbo": {
+      "description": {
+        "part1": "Bingo is a platform for performing human tasks, unlike robotic systems,",
+        "part2": "here all tasks are done manually",
+        "part3": "by real people."
+      },
+      "example": {
+        "dots": "...",
+        "example": "Example",
+        "for": "For"
+      },
+      "example1": {
+        "part1": "You have an Instagram profile",
+        "part2": "and you can earn money",
+        "part3": "by consistently following others and completing activities",
+        "part4": "to generate income."
+      },
+      "example2": {
+        "part1": "You watch YouTube daily",
+        "part2": "and now, with subscribe",
+        "part3": "and by watching videos and doing tasks",
+        "part4": "you can earn money."
+      },
+      "mainTitle": "Bingo, the people's advertising platform",
+      "whatIsBeenboTitle": "What is Bingo and what does it do?"
+    },
+    "comments": {
+      "comment": {
+        "body": "I first downloaded it to see if it works, good for quick income.",
+        "name": "Mehrdad"
+      }
+    },
+    "downloadApp": {
+      "downloadApk": "Download Task APK",
+      "paragraph1": "To get started, simply download the app and install it on your phone.",
+      "paragraph2": "After entering the app, enter your personal information and bank account number and request identity verification.",
+      "paragraph3": "We will activate your account within a few hours and you can immediately start doing tasks.",
+      "paragraph4": "After receiving the task box, you can add your accounts on different platforms and start earning money by doing tasks.",
+      "startQuestion": "Where should I start?",
+      "startWorking": "Start working at Bingo"
+    },
+    "faq": {
+      "faqOne": {
+        "body": "Comments must be related to the post or video, and avoid using emojis or words like 'Great', 'Thank you', 'It was good'.",
+        "title": "Can I write any comment I want?"
+      },
+      "faqThree": {
+        "body": "Comments must be related to the post or video, and avoid using emojis or words like 'Great', 'Thank you', 'It was good'.",
+        "title": "Do I need a plan to work?"
+      },
+      "faqTitle": "Frequently Asked Questions",
+      "faqTwo": {
+        "body": "Comments must be related to the post or video, and avoid using emojis or words like 'Great', 'Thank you', 'It was good'.",
+        "title": "What happens if I can't complete a task?"
+      },
+      "needMoreInfo": "Need more information?"
+    },
+    "hero": {
+      "descriptionPart1": "Work is not always hard, you can earn money at any time of the day by installing the Bingo app and performing simple tasks.",
+      "descriptionPart2": "As you complete tasks, your points increase and your account is upgraded. If you wish, you can work every day and have a steady income.",
+      "descriptionPart3": "With Bingo, you can earn money anytime and as much as you want.",
+      "downloadApk": "Download APK",
+      "title": "Earn money anytime and anywhere",
+      "watchIntro": "Watch Intro"
+    },
+    "info": {
+      "instantPayout": "Instant payout to wallet after completing the task",
+      "title": "Join us at Binbo",
+      "unlimitedIncome": "Unlimited earning potential",
+      "workAnytime": "Ability to work anytime"
+    },
+    "plans": {
+      "compareTitle": "Compare Plans",
+      "currency": "Toman",
+      "descriptionParagraph": "You do not need a plan to start working, however purchasing a plan gives you priority in task processing and access to special tasks.",
+      "featuresTitle": "Features",
+      "freeDescription": "Suitable for passive income",
+      "freeFeatureFour": "Ticket support",
+      "freeFeatureOne": "1 task box per day",
+      "freeFeatureThree": "Quick tasks",
+      "freeFeatureTwo": "Payment deposited at the end of each month",
+      "freeTitle": "Free",
+      "levelTitle": "User Levels",
+      "perMonth": "month",
+      "proDescription": "Suitable for stable income",
+      "proFeatureFive": "Special tasks",
+      "proFeatureFour": "2x normal income",
+      "proFeatureOne": "8 task boxes per day",
+      "proFeatureSeven": "Online support",
+      "proFeatureSix": "Ability to add multiple accounts",
+      "proFeatureThree": "Priority in task queue",
+      "proFeatureTwo": "Payment deposited 24 hours after request",
+      "proTitle": "Pro"
+    }
+  },
+  "errors": {
+    "default": "The operation failed",
+    "minFollowers": "Minimum followers is {count}",
+    "retry": "Please retry"
+  },
+  "landing": {
+    "beenbo": {
+      "description": {
+        "part1": "Bingo is a platform for performing human tasks, unlike robotic systems,",
+        "part2": "here all tasks are done manually",
+        "part3": "by real people."
+      },
+      "example": {
+        "dots": "...",
+        "example": "Example",
+        "for": "For"
+      },
+      "example1": {
+        "part1": "You have an Instagram profile",
+        "part2": "and want active followers",
+        "part3": "who perform all activities",
+        "part4": "."
+      },
+      "example2": {
+        "part1": "You have a YouTube channel",
+        "part2": "and want active subscribers",
+        "part3": "who perform all activities",
+        "part4": "."
+      },
+      "example3": {
+        "part1": "You have a YouTube channel",
+        "part2": "and want to fill your 4000 hours of watch time",
+        "part3": "to monetize your channel",
+        "part4": "."
+      },
+      "mainTitle": "Bingo, the people's advertising platform",
+      "whatIsBeenboTitle": "What is Bingo and what does it do?"
+    },
+    "calculator": {
+      "approximateCostPerPost": "Approximate cost per post",
+      "approximateCostPerStory": "Approximate cost per story",
+      "calculatorTitle": "Calculator",
+      "cancelAnytime": "(Cancel anytime)",
+      "chooseCampaignStrategy": "Choose your campaign Strategy",
+      "chooseCampaignType": "Choose your campaign type",
+      "comment": "Comment every post/video",
+      "commentUnderPost": "Comment under post",
+      "createCampaign": "Create this campaign",
+      "currencySymbol": "T",
+      "initialCredit": "300,000 Tomans initial credit",
+      "instagram": "Instagram",
+      "like": "Like every post/video",
+      "likePerPost": "Like per post",
+      "monthlyCost": "Monthly cost",
+      "paragraph1": "With your desired budget, you can define your campaign and upgrade it anytime.",
+      "paragraph2": "Our agents will constantly work on your campaign and your growth will be guaranteed organically.",
+      "paragraph3": "Your monthly payment will be deducted for campaign operation. When your credit ends, you can recharge to expand your campaign.",
+      "paragraph4": "You can stop your campaign at any time.",
+      "servicesWithFollowers": "With your {followers} followers, you will receive the following services:",
+      "smart": "Smart",
+      "startWithFollowers": "I want to start with {followers} followers",
+      "startWithFollowersPt1": "I want to start with",
+      "startWithFollowersPt2": "followers",
+      "storyView": "View per story",
+      "transparentPricing": "Transparent pricing",
+      "unit": "units",
+      "view": "View every post/video",
+      "wantToEstimate": "Do you want to estimate your campaign cost?",
+      "youtube": "YouTube",
+      "watchtime": "Watch time per video",
+      "reply": "Reply to each story",
+      "view_story": "View each story",
+      "share_to_story": "Share each post to story",
+      "reply_story": "Reply to each story",
+      "share": "Share each post"
+    },
+    "hero": {
+      "mainTitle": "We help you get recognized",
+      "startButton": "Get started",
+      "subTitle": "Suitable for everyone, from ordinary people to professionals, artists, stores, and companies",
+      "watchIntroButton": "Watch introduction"
+    },
+    "info": {
+      "completedTasks": "Completed over 500,000 tasks",
+      "givenWorkToPeople": "Gave work to more than 5,000 people",
+      "title": "We at Bingo",
+      "worksOnCampaigns": "At least worked on 3,000 campaigns"
+    },
+    "posts": {
+      "joinUs": "Hundreds of people join us daily after trying the free test",
+      "latestFreePosts": "Latest free processed posts",
+      "note": "Only a few of the free test posts from previous hours are shown here. Your posts will only be displayed to our contracted users after creating a campaign."
+    },
+    "swapCards": {
+      "customizable": "Customizable",
+      "reliable": "Reliable",
+      "smooth": "Smooth",
+      "subtitle": "Real-time monitoring of task progress and automatic detection of your activities.",
+      "title": "Full control over the campaign"
+    },
+    "test": {
+      "accountNotFound": "Account not found",
+      "afterConfirmParagraphs": "Free tests may be displayed on the website's landing page. By clicking the confirm button, you allow your latest post to be shown in the gallery.",
+      "afterConfirmPart1": "After confirming, your last post with",
+      "afterConfirmPart2": "will be delivered completely free. Note that all activities are performed by real people and during the night",
+      "afterConfirmPart3": "there might be less activity.",
+      "andOr": "or",
+      "confirmAndReceive": "Confirm & Receive",
+      "enterProfileAfterSocial": "to create a free account and",
+      "enterProfileBeforeSocial": "You can enter your profile on",
+      "enterProfileLink": "Enter your profile link or address",
+      "followers": "followers",
+      "freeTest": "Free Test",
+      "freeWithoutPay": "receive it without any payment. This helps you easily test our service.",
+      "instagram": "Instagram",
+      "isThisYourAccount": "Is this your account?",
+      "notMyAccount": "No, this is not me",
+      "ok": "Ok",
+      "posts": "posts",
+      "privateAccountDescription": "Please switch your account to public to continue.",
+      "privateAccountTitle": "Your account is private",
+      "profilePlaceholder": "Profile link or address",
+      "search": "Search",
+      "searchError": "An error occurred during the search",
+      "subscriber": "Subscribers",
+      "videos": "Videos",
+      "wantToSeeQuality": "Want to see the quality?",
+      "youtube": "YouTube"
+    },
+    "testSection": {
+      "buttons": {
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      },
+      "description": {
+        "afterSocial": "create a free account and",
+        "afterStats": "get it without paying any cost. This will help you try our service easily.",
+        "andOr": "and/or",
+        "beforeSocial": "You can enter your profile on"
+      },
+      "freeTest": "Free Test",
+      "profileInput": {
+        "label": "Enter your profile link or address",
+        "placeholder": "Profile link or address",
+        "searchButton": "Search"
+      },
+      "seeQuality": "Do you want to see the quality?"
+    },
+    "title": "the people's advertising platform"
+  },
+  "layouts": {
+    "ChangeLanguageOption": {
+      "en": "English",
+      "fa": "Persian"
+    },
+    "footer": {
+      "bottom": {
+        "privacy": "Privacy",
+        "rights": "All rights reserved © 2025 Bingo",
+        "rules": "Terms",
+        "siteMap": "Site Map"
+      },
+      "company": {
+        "about": "About Bingo",
+        "jobs": "Careers",
+        "support": "Support",
+        "title": "Company"
+      },
+      "enamad": "enamad",
+      "followUs": {
+        "appleStore": "Apple Store",
+        "googlePlay": "Google Play",
+        "title": "Follow us"
+      },
+      "more": {
+        "loginRegister": "Login / Register",
+        "prices": "Prices",
+        "testServices": "Test Services",
+        "title": "Company"
+      },
+      "newsletter": {
+        "button": "Subscribe",
+        "description": "Stay up to date with our latest discounts and services",
+        "placeholder": "Enter your email address",
+        "title": "Newsletter Subscription"
+      },
+      "services": {
+        "instagramCampaign": "Instagram Campaign",
+        "title": "Services",
+        "youtubeCampaign": "YouTube Campaign"
+      }
+    },
+    "header": {
+      "about": "About Bingo",
+      "brandName": "Bingo",
+      "callUs": "Call Us",
+      "career": "Career",
+      "services": "Services",
+      "support": "Support"
+    }
+  }
+}

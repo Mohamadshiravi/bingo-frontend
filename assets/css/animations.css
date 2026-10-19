@@ -1,0 +1,42 @@
+.animate-fade-in {
+  animation: fade-in 0.5s;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.skeleton-loading {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-schemes-surface-container-high);
+  animation: shimmer 2s infinite ease-in-out;
+}
+.skeleton-loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  height: 100%;
+  width: 150%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    var(--color-schemes-outline) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: skeleton 1.5s infinite;
+}
+@keyframes skeleton {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}

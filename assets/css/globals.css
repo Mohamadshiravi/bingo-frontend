@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-inter: var(--font-inter);
+  --font-yekan: var(--font-yekan);
+}
+
+html[dir="rtl"] * {
+  font-feature-settings: "ss01" on;
+}
+
+html[dir="rtl"] .font-morabba {
+  font-family: var(--font-morabba);
+}
+html[dir="ltr"] .font-morabba {
+  font-family: var(--font-teko);
+}
+html[dir="rtl"] .font-pofak {
+  font-family: var(--font-pofak);
+}
+html[dir="ltr"] .font-pofak {
+  font-family: var(--font-teko);
+}
+
+@theme {
+  --text-4_5xl: 2.5rem;
+  --text-7_5xl: 5.6rem;
+  --color-beenbo: #8bd0ef;
+  --color-background: #0b0c0c;
+  --color-background-700: #131415;
+  --color-background-600: #161616;
+
+  --color-border-700: #292929;
+  --color-border-600: #484848;
+
+  --color-surface-variant: #40484c;
+  --color-on-surface-variant: #c0c8cd;
+  --color-on-surface: #dfe3e7;
+  --color-surface: #0f1417;
+
+  --color-extended-pending: #e2c46d;
+  --color-extended-accent: #84d6c2;
+  --color-extended-red: #ffb3b6;
+
+  --color-schemes-on-background: #dfe3e7;
+  --color-schemes-outline: #8a9297;
+  --color-schemes-surface-container-high: #262b2d;
+}
+
+.section-container {
+  @apply xl:max-w-6xl max-w-11/12 mx-auto;
+}
+.instagram-gradient {
+  background: linear-gradient(
+    104deg,
+    rgba(254, 1, 95, 0.5) 10.72%,
+    rgba(114, 12, 246, 0.5) 48.92%,
+    rgba(253, 203, 0, 0.5) 91.8%
+  );
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

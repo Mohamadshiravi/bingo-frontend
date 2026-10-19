@@ -1,0 +1,9 @@
+include:
+  - component: $CI_SERVER_FQDN/ci-cd-components/templates/next@~latest
+    inputs:
+      k8s-namespace: beenbo
+      k8s-context: beenbo/k8s-agent:beenbo
+      build-platforms: linux/amd64
+      prod-domain: beenbo.com
+      tags:
+        - amd64

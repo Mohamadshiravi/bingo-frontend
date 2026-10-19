@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": 6,
+  "format": "JSON_TOLGEE",
+  "apiUrl": "https://tolgee.imvx.ir",
+  "patterns": [
+    "./**/*.ts?(x)"
+  ],
+  "push": {
+    "filesTemplate": "./i18n/{languageTag}.json",
+    "language": [
+      "en-US",
+      "fa-IR"
+    ]
+  },
+  "pull": {
+    "path": "./i18n"
+  }
+}
